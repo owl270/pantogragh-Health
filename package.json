@@ -1,0 +1,73 @@
+{
+  "name": "panto-health-dashboard-1.0.0",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://18.184.104.31:8080",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "antd": "^4.5.1",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.4.1",
+    "call-limit": "^1.1.1",
+    "geojson-world-map": "0.0.2",
+    "html-to-image": "^0.1.1",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.6.0",
+    "levenary": "^1.1.1",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "latest",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-bootstrap": "^1.0.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-clickout-handler": "^1.2.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-data-export": "^0.6.0",
+    "react-dom": "latest",
+    "react-leaflet": "^2.7.0",
+    "react-loadable": "^5.5.0",
+    "react-moment": "^0.9.7",
+    "react-onclickout": "^2.0.8",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-player": "^2.6.0",
+    "react-rebound": "^0.8.3",
+    "react-redux": "^6.0.1",
+    "react-reveal": "^1.2.2",
+    "react-router": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "^4.0.0",
+    "react-window-size": "^1.2.2",
+    "rebound": "^0.1.0",
+    "redux": "^4.0.5",
+    "string-to-color": "^2.2.2",
+    "use-screen-recording": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "react-to-print": "^2.6.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+/*in tike CSS kham e khodet scss konesh*/
+div.panto-col.chat-col > div > div > div > div.ticket-input > div.input-group > div{
+  border-bottom:none;
+}
+
+
+.panto-col {
+
+
+  &.info-col {
+    flex: 0.3;
+    padding-right: 5px;
+    align-items: center;
+
+
+    & > .panto-card {
+
+      & .panto-card-body {
+        display: flex;
+        /*******/
+        justify-content: space-between;
+        /*******/
+
+        & .info-button {
+          height: 40px;
+          /*******/
+          font-weight: bold;
+          /*******/
+        }
+
+
+        & ul {
+          & .info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 20px 30px 0;
+
+
+            & .info-title {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-end;
+
+              & i {
+                height: 25px;
+                width: 25px;
+              }
+
+              & span {
+                color: #4285F4;
+                font-size: 12px;
+                margin-left: 5px;
+                font-weight: bold;
+              }
+            }
+
+            & .info-text {
+              color: #ffffff;
+              font-weight: bold;
+              font-size: 12px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+
+  &.ticket-col {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+
+
+    & .panto-col {
+
+      &.ticket-list-col {
+        padding: 10px;
+
+
+        & h6.ticket-list-header {
+          font-weight: bold;
+          font-size: 12px;
+        }
+
+        & hr {
+          border-color: #FFFFFF;
+        }
+
+        & .ticket-list {
+          margin-top: 20px;
+
+          &.open-tickets {
+            //********************
+            height: 160px;
+            // b andazeye 2 tickets va ye margin-bottom
+            //********************
+          }
+
+          &.close-tickets {
+            //********************
+            height: 400px;
+            //********************
+          }
+
+          & ul {
+            margin: 0;
+
+            & li {
+              height: 75px;
+              margin-bottom: 10px;
+
+
+              & .ticket-card-content {
+                padding: 15px;
+                height: 100%;
+                background: linear-gradient(to right, #856331, #46526A);
+                border-radius: 5px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+
+                & .ticket-info {
+                  flex: 1;
+                  height: 100%;
+                  justify-content: space-between;
+                  display: flex;
+                  flex-direction: column;
+
+
+                  & h5 {
+                    color: #FFFFFF;
+                  }
+
+
+                  & .ticket-duration {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+
+
+                    & span {
+                      color: #AFB0B2;
+                    }
+                  }
+
+                }
+
+
+                & .ticket-tools {
+
+                  & .close-ticket-button {
+                    background-color: #FFFFFF;
+                    border-color: #FFFFFF;
+                    color: #FD9E58;
+                    font-weight: bold;
+                  }
+
+                }
+
+              }
+
+
+              &.closed {
+                & .ticket-card-content {
+                  background: #383A3F;
+
+
+                  & .ticket-info {
+
+                    & h5 {
+                      color: #AFB0B2;
+                    }
+
+                    & .ticket-duration {
+                      & span {
+                        color: #AFB0B2;
+                      }
+                    }
+
+                  }
+
+                }
+              }
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+
+            }
+          }
+
+        }
+
+
+      }
+
+      &.chat-col {
+        & .chat-box {
+          background-color:  #383A3F;
+
+
+          & .ticket-input {
+            display: flex;
+            background-color: #2B2B2B;
+            margin: 20px 20px 20px;
+            border-radius: 30px;
+            justify-content: space-between;
+
+            & .button-container {
+              & .send-button {
+                width: 40px;
+                height: 40px;
+                background-color: #007EF4;
+                border-radius: 40px;
+                border-color: #007EF4;
+                align-self: flex-start;
+                margin-right: 5px;
+                margin-top: 5px;
+              }
+            }
+
+          }
+
+          & .header {
+            display: flex;
+            background-color: #FBB040;
+            height: 50px;
+            align-items: center;
+            padding: 0 10px;
+            justify-content: space-between;
+
+            & h6 {
+              font-size: 16px;
+            }
+
+            & .ticket-chat {
+
+              & .close-ticket-chat {
+                background-color: #FFFFFF;
+                border-color: #FFFFFF;
+                color: #FD9E58;
+                font-weight: bold;
+                align-self: end;
+
+              }
+
+
+            }
+
+          }
+          & .msg-container {
+            height: 540px;
+
+
+            & .content-msg {
+              display: flex;
+              flex: 1;
+              background-color: #383A3F;
+              flex-direction: row;
+              padding: 0 20px;
+              & .alert{
+align-self: center;
+              }
+
+              & .image-user {
+                height: 40px;
+                width: 40px;
+                background-color: red;
+                border-radius: 20px;
+                align-self: flex-end;
+                margin: 0px 10px 0;
+                & img{
+                  height: 50px;
+                  width: 50px;
+                }
+
+              }
+
+
+
+              & .msg-row {
+                margin-bottom: 20px;
+                background: linear-gradient(to left, #856331, #46526A);
+                border-radius: 14px 14px 14px 0;
+                padding: 10px;
+                margin-top: 20px;
+                flex-direction: column;
+
+                &.other-text {
+                  background: linear-gradient(to left, #46526A, #4467A5);
+                  border-radius: 14px 14px 0px 14px;
+                  padding: 9px 14px;
+                  margin-bottom: 5px;
+                  font-size: 16px;
+                  color: #FFFFFF;
+                  justify-content: center;
+                  align-self: flex-start;
+                  & .msg-time {
+                    font-size: 10px;
+                    color: #CCCCCC;
+
+                  }
+
+                }
+
+                &.my-text {
+                  background: linear-gradient(to left, #856331, #46526A);
+                  border-radius: 14px 14px 14px 0;
+                  padding: 9px 14px;
+                  margin-bottom: 5px;
+                  font-size: 16px;
+                  color: #FFFFFF;
+
+                  & .msg-time {
+                    font-size: 10px;
+                    color: #CCCCCC;
+
+                  }
+
+                }
+
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+
+  }
+}
